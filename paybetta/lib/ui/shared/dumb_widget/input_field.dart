@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:paybetta/ui/shared/const_app_colors.dart';
 
-import '../const_app_colors.dart';
+
 
 class TextInputField extends StatelessWidget {
   final TextInputType? textInputType;

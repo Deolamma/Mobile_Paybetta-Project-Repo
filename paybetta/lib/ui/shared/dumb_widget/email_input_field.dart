@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:paybetta/ui/shared/const_app_colors.dart';
 
-import '../const_app_colors.dart';
+
 
 class ValEmailField extends StatelessWidget {
   final TextInputType? textInputType;
@@ -21,14 +22,15 @@ class ValEmailField extends StatelessWidget {
   final TextInputType? keyboardType;
 
   const ValEmailField(
-      {Key? key,
+      {
+        required this.obscureText,
+        Key? key,
       this.hintText,
       this.label,
       this.filled,
       this.focusNode,
       this.textInputType,
       this.defaultText,
-      required this.obscureText,
       this.controller,
       this.functionValidate,
       this.parametersValidate,
