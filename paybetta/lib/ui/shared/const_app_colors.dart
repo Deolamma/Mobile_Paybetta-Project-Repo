@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 const Color pbAppColor = Color(0xFFAB0582);
+const Color pbBorderColor = Color(0xFF020202);
 const Color pbAccentColor = Color(0xFFB8003C);
 const Color pbErrorColor = Color(0xFFF40101);
+const Color pbFilledColor = Color(0xFFF6DADD);
 const Color pbLightGreyColor = Color(0xFFF6F6F6);
 const Color pbWhiteColor = Color(0xFFFFFFFF);
 const Color pbSuccessColor = Color(0xFF008B5E);
