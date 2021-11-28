@@ -24,11 +24,8 @@ class PayBetta extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: AppName,
             theme: ThemeData(
-              primaryColor: pbAppColor,
-              appBarTheme:const AppBarTheme(
-                color: pbAppColor
-              )
-            ),
+                primaryColor: pbAppColor,
+                appBarTheme: const AppBarTheme(color: pbAppColor)),
             navigatorKey: StackedService.navigatorKey,
             onGenerateRoute: StackedRouter().onGenerateRoute,
           );
