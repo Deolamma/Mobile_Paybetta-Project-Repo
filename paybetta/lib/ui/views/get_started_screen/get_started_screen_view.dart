@@ -27,8 +27,7 @@ class GetStartedScreenView extends StatelessWidget {
                 Text(
                   model.createAcct,
                   style: GoogleFonts.openSans(
-                    fontSize: 25,
-                  ),
+                      fontSize: 25, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 20),
                 Container(

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:paybetta/ui/shared/const_app_colors.dart';
@@ -41,8 +42,8 @@ class OnboardingScreenView extends StatelessWidget {
                                       model
                                           .controller.onboardingPagges[i].title,
                                       style: GoogleFonts.openSans(
-                                        fontSize: 25,
-                                      ),
+                                          fontSize: 25,
+                                          fontWeight: FontWeight.bold),
                                     )),
                                 SizedBox(height: 5),
                                 Padding(
